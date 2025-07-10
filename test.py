@@ -8,4 +8,9 @@ def f(n):
         return True
 
 print(f(10000))
+count = 0
 print(f(10029348383))
+for n in range(10000):
+    if n % 2 == 0:
+        count += 1
+print(count)
